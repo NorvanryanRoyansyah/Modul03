@@ -4,6 +4,7 @@ public class GuiByText extends JFrame {
 
     JLabel label1 = new JLabel("Coba Input");
     JTextField textField1 = new JTextField();
+    JButton button1 = new JButton("Greet");
 
     GuiByText() {
         setSize(640, 480);
@@ -20,6 +21,7 @@ public class GuiByText extends JFrame {
 
         label1.setBounds(16, 32, 100, 25);
         textField1.setBounds(124, 32, 100, 25);
+        button1.setBounds(232, 32, 80, 25);
     }
     public static void main(String[] args) {
         GuiByText guiByText = new GuiByText();
